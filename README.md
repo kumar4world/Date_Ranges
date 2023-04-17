@@ -12,3 +12,11 @@ Set up steps:
 Usage:
 
 Example: curl -X POST -d 'date_1[start_date]=2022-01-01&date_1[end_date]=2022-01-13&date_2[start_date]=2022-01-18&date_2[end_date]=2022-28' http://127.0.0.1:8000/date/
+
+
+CI/CD Pipeline:
+
+1) This code is checked in in github and a Jenkinsfile is present in the repository
+2) When a commit is made to the repository, Jenkins kicks off a build and uses this Jenkinsfile which defines the build steps
+3) The pipeline, checks out the repository from the guthub, builds, tests, packages and publishes the results.
+4) test_data_overlap.py and test_data_no_overlap.py in the date_overlap/tests folder are the unittests performed by the test step in the build process.
