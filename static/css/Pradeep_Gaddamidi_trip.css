@@ -1,0 +1,56 @@
+#header{
+    background-color: #ecba81;
+    border-radius:0 0 50% 50%/0 0 100% 100%;
+}
+#selection1{
+    background-color: #a3e2e4f1;
+}
+#selection2{
+    color:rgb(173, 54, 18);
+    font-family: 'Allison', cursive;}
+    #video{
+        width: 820;
+        height: 54500;
+    
+    }
+    .sac{
+        background-color: #b7f3e4;
+        color: rgb(16, 24, 99);
+        border-radius: 8px;
+        border-style:double;
+    }
+    .san{
+        background-color: #f0ded7;
+        color: rgb(13, 17, 59);
+        border-radius: 8px;
+        border-style:double;
+    
+    }
+    #form{
+        font-weight: bold;
+         border-radius: 10px;
+    }   
+    #video:hover {
+        color: blue;
+      }
+      .deals{
+          color: red;
+          background-color: rgb(25, 16, 87);
+      }
+    .pai{
+        background-color: rgb(240, 219, 193);
+    }
+    .davis{
+        background-color: rgb(233, 213, 186);
+        border-radius: 8px;
+        border-style:double;
+    }
+    .nav-link{
+        color:rgb(182, 31, 212);
+    }
+    #nav-bar{}
+    #submit{}
+    #email{
+        color: darkgreen;
+    }
+    #email{}
