@@ -1,4 +1,4 @@
-#Date Ranges Api project
+#Date Ranges Api project - date_overlap
 
 This is a JSON based API that will return a response indicating if two date ranges overlap.
 
