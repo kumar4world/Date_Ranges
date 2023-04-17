@@ -4,7 +4,7 @@ This is a JSON based API that will return a response indicating if two date rang
 
 Set up steps:
 
-1) git clone 
+1) git clone git@github.com:kumar4world/Date_Ranges.git
 2) cd Date_Ranges
 3) python3 manage.py runserver 8000
 
