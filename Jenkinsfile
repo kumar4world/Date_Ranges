@@ -14,19 +14,19 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'cd Date_Ranges'
-                sh 'python3 manage.py runserver 8000''
+                sh 'python3 manage.py collectstatic'
             }
         }
 
         stage('Test') {
             steps {
-                sh 'python manage.py test'
+                sh 'python3 manage.py test'
             }
         }
 
         stage('Package') {
             steps {
-                sh 'python setup.py sdist'
+                sh 'python3 setup.py sdist'
                 archiveArtifacts artifacts: 'dist/*.tar.gz', fingerprint: true
             }
         }
