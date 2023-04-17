@@ -13,6 +13,7 @@ Usage:
 
 Example: curl -X POST -d 'date_1[start_date]=2022-01-01&date_1[end_date]=2022-01-13&date_2[start_date]=2022-01-18&date_2[end_date]=2022-28' http://127.0.0.1:8000/date/
 
+Alternatively use postman tool to send your POST requests and add the parameters to the body of the request
 
 CI/CD Pipeline:
 
